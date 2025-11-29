@@ -3,3 +3,25 @@
     border: 0;
     padding: 0;
 }
+
+.l-container{
+    margin:16pt;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.u-middle{
+    align-content: center;
+    width: 100%;
+}
+
+.c-card{
+    margin: 16pt;
+    border: 1px solid aqua;
+    background-color: lightblue;
+    width: 128px;
+    height: 128px;
+}
