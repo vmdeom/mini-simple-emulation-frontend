@@ -19,9 +19,30 @@
 }
 
 .c-card{
-    margin: 16pt;
-    border: 1px solid aqua;
-    background-color: lightblue;
     width: 128px;
     height: 128px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 16pt;
+    position: relative;
+    border: 1px solid aqua;
+    transition: transform 0.4s;
 }
+
+.from-top { transform:translateY(16px);
+  border: 3px solid gray;
+  }
+.from-right { transform:translateX(-16px);
+  border: 3px solid gray;
+}
+.from-bottom { transform:translateY(-16px);
+  border: 3px solid gray;
+  }
+.from-left { transform:translateX(16px);
+  border: 3px solid gray;
+  }
+.center { transform: none;}
