@@ -6,7 +6,7 @@
 
 .l-container{
     margin:16pt;
-    border: 1px solid black;
+    border: 1px solid white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,20 +29,16 @@
     border-radius: 10px;
     margin: 16pt;
     position: relative;
-    border: 1px solid aqua;
     transition: transform 0.4s;
 }
 
-.from-top { transform:translateY(16px);
-  border: 3px solid gray;
-  }
-.from-right { transform:translateX(-16px);
-  border: 3px solid gray;
+.c-cover, .c-canvas{
+  width: 99%;
+  height: 99%;
 }
-.from-bottom { transform:translateY(-16px);
-  border: 3px solid gray;
-  }
-.from-left { transform:translateX(16px);
-  border: 3px solid gray;
-  }
-.center { transform: none;}
+
+.from-top { transform:translateY(16px); }
+.from-right { transform:translateX(-16px); }
+.from-bottom { transform:translateY(-16px); }
+.from-left { transform:translateX(16px); }
+.center { transform: none; }
