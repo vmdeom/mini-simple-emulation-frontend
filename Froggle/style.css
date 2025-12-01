@@ -1,0 +1,63 @@
+:root{
+    --card-size: 180px;
+    --screen-size: 800px
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+}
+
+#games{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.game{
+    margin: 13px;
+    width: var(--card-size);
+    height: var(--card-size);
+    border: 2px solid white;
+    transition: transform 0.5s;
+    opacity: 0.5s;
+}
+
+.selected{
+    transform: scale(1.05);
+    border: 2px solid grey;
+}
+
+.title{
+    margin-top: 10%;
+    width: var(--screen-size);
+    height: var(--screen-size);
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.color-0{
+    background-color: lightblue;
+}
+.color-1{
+    background-color: lightcoral;
+}
+.color-2{
+    background-color: lightgray;
+}
+.color-3{
+    background-color: lightseagreen;
+}
