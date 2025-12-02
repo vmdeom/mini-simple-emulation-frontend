@@ -12,8 +12,6 @@ for (let i = 0; i < 4; i++) {
     let gameDiv = document.createElement("div");
     games.appendChild(gameDiv)
     gameDiv.classList.add(`color-${i}`, 'game');
-
-    console.log(i)
 }
 
 const selectChild = games.children
