@@ -11,7 +11,7 @@
 .main{
     position: relative;
     overflow: hidden;
-    margin: auto;
+    margin: 5% auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,6 +28,7 @@
     height: 100%;
     border: 2px solid red;
     display: flex;
+    flex-direction: column;
 }
 .scroller::-webkit-scrollbar{
     display: none;
@@ -42,7 +43,7 @@
 
     z-index: 1;
     transform: none;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease-in-out;
 }
 
 .slider img {
