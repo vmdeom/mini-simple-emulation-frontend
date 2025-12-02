@@ -22,9 +22,10 @@
     
     display: inherit;
     flex-direction: column;
+    flex-wrap: nowrap;
 
     transform: none;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;*/
 }
 
 .slider img{

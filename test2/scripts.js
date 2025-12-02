@@ -7,11 +7,20 @@ let slideIndex = 0;
 
 
 function updateSlide(index) {
-    const height = cards[0].clientHeight;
-    console.log(slider)
+    const height = cards[1].clientHeight;
     
     slider.style.transform = `translateY(-${index * height}px)`;
+    
+    let firstCard = cards[0]
+    let lastCard = cards[cards.length - 1]
 
+    let firstClone = firstCard.cloneNode(true)
+    let lastClone = lastCard.cloneNode(true)
+    
+    
+    slider.appendChild(firstClone);
+    slider.insertBefore(lastClone)
+    
 }
 
 function slideCards(key, i){
