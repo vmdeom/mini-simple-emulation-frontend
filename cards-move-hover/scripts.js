@@ -2,9 +2,9 @@ const box = document.getElementById('card-grid');
 
 var games = {
     "games":[
-        {"name": "a", "path": "img/gameA.jpg"},
-        {"name": "b", "path": "img/gameB.jpg"},
-        {"name": "c", "path": "img/gameC.jpg"}
+        {"name": "a", "path": "../img/gameA.jpg"},
+        {"name": "b", "path": "../img/gameB.jpg"},
+        {"name": "c", "path": "../img/gameC.jpg"}
     ]
 }
 

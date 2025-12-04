@@ -1,0 +1,7 @@
+{
+    "games":[
+        {"name": "a", "path": "../img/gameA.jpg"},
+        {"name": "b", "path": "../img/gameB.jpg"},
+        {"name": "c", "path": "../img/gameC.jpg"}
+    ]
+}
